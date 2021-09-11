@@ -18,6 +18,12 @@
     "branch": "lineage-18.1"
   },
   {
+    "remote": "gitlab",
+    "repository": "vortexhdwhite/vendor_xiaomi_firmware",
+    "target_path": "vendor/xiaomi/firmware"
+    "branch": "main"
+  },
+  {
     "remote": "github",
     "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
