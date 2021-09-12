@@ -15,9 +15,6 @@ DEVICE_PATH := device/xiaomi/venus
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := venus
 
-# Prebuilts
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-
 # HIDL
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 
