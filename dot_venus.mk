@@ -25,6 +25,3 @@ PRODUCT_MODEL := Mi 11
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Include firmware
-$(call inherit-product, vendor/xiaomi/firmware/venus/firmware.mk)
