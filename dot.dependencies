@@ -12,16 +12,10 @@
     "branch": "lineage-18.1"
   },
   {
-    "remote": "github",
+    "remote": "gitlab",
     "repository": "Demon000/vendor_xiaomi",
     "target_path": "vendor/xiaomi"
     "branch": "lineage-18.1"
-  },
-  {
-    "remote": "gitlab",
-    "repository": "vortexhdwhite/vendor_xiaomi_firmware",
-    "target_path": "vendor/xiaomi/firmware"
-    "branch": "main"
   },
   {
     "remote": "github",
@@ -46,11 +40,5 @@
     "repository": "LineageOS/android_hardware_qcom_audio",
     "target_path": "hardware/qcom-caf/sm8350/audio"
     "branch": "lineage-18.1-caf-sm8350"
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_system_tools_hidl",
-    "target_path": "system/tools/hidl"
-    "branch": "lineage-18.1"
   }
 ]
