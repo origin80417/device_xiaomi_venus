@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_venus.mk
+    $(LOCAL_DIR)/dot_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_venus-user \
-    derp_venus-userdebug \
-    derp_venus-eng
+    dot_venus-user \
+    dot_venus-userdebug \
+    dot_venus-eng
