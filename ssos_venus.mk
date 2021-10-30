@@ -11,15 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common ShapeShiftOS stuff.
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
-# Aosp Extended Properties
-WITH_CORE_GAPPS := true
+# SSOS Properties
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1440
-EXTRA_FOD_ANIMATIONS := true
 
-PRODUCT_NAME := aosp_venus
+PRODUCT_NAME := ssos_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2011K2C
