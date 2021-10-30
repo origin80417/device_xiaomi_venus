@@ -11,12 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-# Inherit some common ShapeShiftOS stuff.
-$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
+# Inherit some common Syberia stuff.
+$(call inherit-product, vendor/syberia/common.mk)
 
-# SSOS Properties
-WITH_GAPPS := true
+# Syberia Properties
 TARGET_GAPPS_ARCH := arm64
+TARGET_WANTS_FOD_ANIMATIONS := true
+TARGET_HAS_FOD := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_NAME := ssos_venus

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_venus.mk
+    $(LOCAL_DIR)/syberia_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_venus-user \
-    ssos_venus-userdebug \
-    ssos_venus-eng
+    syberia_venus-user \
+    syberia_venus-userdebug \
+    syberia_venus-eng
