@@ -11,17 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-# Inherit some common Syberia stuff.
-$(call inherit-product, vendor/syberia/common.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-# Syberia Properties
-TARGET_GAPPS_ARCH := arm64
-TARGET_WANTS_FOD_ANIMATIONS := true
-TARGET_HAS_FOD := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# Derp variables
+IS_PHONE := true
+TARGET_GAPPS_ARCH = arm64
 TARGET_BOOT_ANIMATION_RES := 1440
 
-PRODUCT_NAME := syberia_venus
+PRODUCT_NAME := derp_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2011K2C

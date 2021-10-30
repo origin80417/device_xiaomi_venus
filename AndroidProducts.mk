@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_venus.mk
+    $(LOCAL_DIR)/derp_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_venus-user \
-    syberia_venus-userdebug \
-    syberia_venus-eng
+    derp_venus-user \
+    derp_venus-userdebug \
+    derp_venus-eng
