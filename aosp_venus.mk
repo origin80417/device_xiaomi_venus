@@ -11,14 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
-# DotOS variables
-WITH_GAPPS := true
+# Aosp Extended Properties
+WITH_CORE_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1440
+EXTRA_FOD_ANIMATIONS := true
 
-PRODUCT_NAME := dot_venus
+PRODUCT_NAME := aosp_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2011K2C
