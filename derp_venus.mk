@@ -18,6 +18,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 IS_PHONE := true
 TARGET_GAPPS_ARCH = arm64
 TARGET_BOOT_ANIMATION_RES := 1440
+DERP_BUILDTYPE := Official
 
 PRODUCT_NAME := derp_venus
 PRODUCT_DEVICE := venus
