@@ -19,5 +19,10 @@
         </interface>
         <fqname>@2.0::INqNfc/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::ISecureElement/eSE1</fqname>
+    </hal>
     <kernel target-level="5"/>
 </manifest>
